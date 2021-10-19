@@ -1,0 +1,28 @@
+{
+    "name": "tentail/nestable",
+    "description": "Laravel Nestable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TenTail",
+            "email": "tentail10@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TenTail\\Nestable\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^7.0|^8.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TenTail\\Nestable\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    }
+}
